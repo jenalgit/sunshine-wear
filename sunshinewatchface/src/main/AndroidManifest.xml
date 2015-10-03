@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="xyz.kushal.sunshinewatchface" >
+    package="com.example.android.sunshine.app" >
 
     <uses-feature android:name="android.hardware.type.watch" />
 
@@ -19,7 +19,7 @@
             android:value="@integer/google_play_services_version" />
 
         <service
-            android:name=".MyDigitalWatchFace"
+            android:name="com.example.android.sunshine.app.MyDigitalWatchFace"
             android:label="@string/my_digital_name"
             android:permission="android.permission.BIND_WALLPAPER" >
             <meta-data
